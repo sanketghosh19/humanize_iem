@@ -133,7 +133,7 @@ class TextractLayoutExtractor:
 # Usage example
 if __name__ == "__main__":
     extractor = TextractLayoutExtractor()
-    file_path = "invoice-template.pdf"  # Replace with your image or PDF path
+    file_path = "template_sb1.pdf"  # Replace with your image or PDF path
     layout = extractor.process_file(file_path)
     #extractor.save_results(extractor.original_results, "layout_original_results.json")
     extractor.save_results(layout, "layout_simplified_results.json")
